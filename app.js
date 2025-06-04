@@ -4,7 +4,7 @@ let limiteNumeroAleatorio = 100;
 let numeroSecreto = parseInt(Math.random() * limiteNumeroAleatorio + 1); // Gera um número aleatório entre 0 e 10
 console.log(numeroSecreto); // Exibe o número secreto no console para fins de depuração
 let chute;
-let tentativas = 1; // Inicializa o contador de tentativas
+let tentativas = 1; // Inicializa o contador de tentativa
 
 while(chute != numeroSecreto){
     chute = parseInt(prompt(`Digite um número entre 0 e ${limiteNumeroAleatorio}:`)); // Solicita ao usuário que digite um número
